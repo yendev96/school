@@ -1,0 +1,68 @@
+.fa{
+	padding-right: 5px;
+}
+
+.my-panel-heading{
+	border-bottom: 1px solid #dfe4ed;
+	margin-bottom: 20px;
+}
+
+.title-panel{
+	float: left;
+}
+
+.my-dropdown-avatar{
+	margin-top: 11px;
+}
+
+.my-dropdown-toggle{
+	float: left;
+}
+
+.avatar-aside{
+	position: absolute;
+	top: 18px;
+	left: 10px;
+}
+
+.my-left-menu-list-root{
+	margin:0px;
+}
+
+.header-aside{
+	position: relative;
+    height: 70px;
+    color: #5B5B5B;
+}
+
+.id-aside-user{
+	position: absolute;
+	left: 65px;
+    top: 25px;
+}
+
+.level-aside-user{
+	position: absolute;
+	left: 115px;
+    top: 25px;
+}
+
+.my-fa-delete{
+	padding: 6px;
+	background: red;
+	border-radius: 3px;
+	color: #fff;
+	margin-right: 10px;
+}
+
+.my-fa-edit{
+	padding: 6px;
+	background: #1AA603;
+	border-radius: 3px;
+	color: #fff;
+	margin-right: 10px;
+}
+
+.my-left-menu-link{
+	margin-left: 40px;
+}
