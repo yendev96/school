@@ -17,7 +17,9 @@ Route::get('/', function () {
 
 Route::group(['prefix' => 'backend'], function() {
     Route::get('/', 'BackendController@index');
-    Route::group(['prefix' => 'category'], function() {
-        Route::get('/', 'CategoryController@index');
+    Route::group(['prefix' => 'teacher'], function() {
+        Route::get('/', 'TeacherController@index');
+        Route::get('list', 'TeacherController@getListTeacher');
+        Route::get('add', 'TeacherController@getAddTeacher');
     });
 });

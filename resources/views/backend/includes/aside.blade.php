@@ -15,115 +15,43 @@
         <ul class="left-menu-list left-menu-list-root list-unstyled my-left-menu-list-root">
             <li class="left-menu-list-active">
                 <a class="left-menu-link" href="index.html">
-                    <i class="left-menu-link-icon icmn-home2"><!-- --></i>
+                    <i class="left-menu-link-icon icmn-home2"></i>
                     <span class="menu-top-hidden">Dashboard</span> Alpha
                 </a>
             </li>
             
-            <li class="left-menu-list-submenu">
-                <a class="left-menu-link" href="javascript: void(0);">
-                    <i class="left-menu-link-icon icmn-files-empty2"><!-- --></i>
-                    Pages
-                </a>
-                <ul class="left-menu-list list-unstyled">
+
                     <li>
-                        <a class="left-menu-link" href="pages-login.html">
-                            Login
+                        <a class="left-menu-link" href="{{url('/backend/teacher')}}">
+                            Quản lý giáo viên
                         </a>
                     </li>
                     <li>
                         <a class="left-menu-link" href="pages-register.html">
-                            Register
-                        </a>
-                    </li>
-                    <li>
-                        <a class="left-menu-link" href="pages-lockscreen.html">
-                            Lockscreen
-                        </a>
-                    </li>
-                    <li>
-                        <a class="left-menu-link" href="pages-pricing-tables.html">
-                            Pricing Tables
-                        </a>
-                    </li>
-                    <li>
-                        <a class="left-menu-link" href="pages-invoice.html">
-                            Invoice
-                        </a>
-                    </li>
-                    <li>
-                        <a class="left-menu-link" href="pages-page-404.html">
-                            Page 404
-                        </a>
-                    </li>
-                    <li>
-                        <a class="left-menu-link" href="pages-page-500.html">
-                            Page 500
-                        </a>
-                    </li>
-                </ul>
-            </li>
-             <li class="left-menu-list-submenu">
-                <a class="left-menu-link" href="javascript: void(0);">
-                    <i class="left-menu-link-icon icmn-files-empty2"><!-- --></i>
-                    Pages
-                </a>
-                <ul class="left-menu-list list-unstyled">
-                    <li>
-                        <a class="left-menu-link" href="pages-login.html">
-                            Login
+                            Quản lý học sinh
                         </a>
                     </li>
                     <li>
                         <a class="left-menu-link" href="pages-register.html">
-                            Register
+                            Quản lý lớp học
                         </a>
                     </li>
                     <li>
-                        <a class="left-menu-link" href="pages-lockscreen.html">
-                            Lockscreen
+                        <a class="left-menu-link" href="pages-register.html">
+                            Quản lý môn học
                         </a>
                     </li>
                     <li>
-                        <a class="left-menu-link" href="pages-pricing-tables.html">
-                            Pricing Tables
+                        <a class="left-menu-link" href="pages-register.html">
+                            Quản lý điểm
                         </a>
                     </li>
-                    <li>
-                        <a class="left-menu-link" href="pages-invoice.html">
-                            Invoice
-                        </a>
-                    </li>
-                    <li>
-                        <a class="left-menu-link" href="pages-page-404.html">
-                            Page 404
-                        </a>
-                    </li>
-                    <li>
-                        <a class="left-menu-link" href="pages-page-500.html">
-                            Page 500
-                        </a>
-                    </li>
-                </ul>
-            </li>
-            <li>
+            <!--<li>
                 <a class="left-menu-link" href="apps-profile.html">
-                    <i class="left-menu-link-icon icmn-profile"><!-- --></i>
-                    Profile
+                    <i class="left-menu-link-icon icmn-profile"></i>
+                    Quản lý giáo viên
                 </a>
-            </li>
-            <li>
-                <a class="left-menu-link" href="apps-profile.html">
-                    <i class="left-menu-link-icon icmn-profile"><!-- --></i>
-                    Profile
-                </a>
-            </li>
-            <li>
-                <a class="left-menu-link" href="apps-profile.html">
-                    <i class="left-menu-link-icon icmn-profile"><!-- --></i>
-                    Profile
-                </a>
-            </li>
+            </li>-->
             
             
             
